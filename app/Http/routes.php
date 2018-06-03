@@ -40,7 +40,7 @@ Route::get('/create', function(){
 
     //add subscriber to DB
 
-    $user->roles()->save(new Role(['name'=>'ButtPlug']));
+    $user->roles()->save(new Role(['name'=>'OneTimeThing']));
 
     return "Entry made";
     // dd($user->role);
